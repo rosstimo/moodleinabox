@@ -78,5 +78,5 @@ EXPOSE 80
 # disable any healthcheck inherited from the base image
 HEALTHCHECK NONE
 
-# start minecraft server
-CMD ["java", "-Xmx1024M", "-Xms1024M", "-jar", "/minecraft/minecraft_server.1.16.5.jar", "nogui", "-D", "FOREGROUND"]
+# start server
+   #CMD
